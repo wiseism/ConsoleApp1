@@ -1,0 +1,15 @@
+.idea
+*.iml
+out
+bin
+obj
+gen
+.settings/
+target/
+.classpath
+.project
+.gitlab-ci.yml
+
+/.apt_generated/
+*.factorypath
+/log.path_IS_UNDEFINED
