@@ -1,4 +1,7 @@
-// See https://aka.ms/new-console-template for more information
-using System;
+using ConsoleApp1;
 
-Console.WriteLine("Hello, World!");
+var greeter = new Greeter();
+Console.WriteLine(greeter.Greet("World"));
+
+var calculator = new Calculator();
+Console.WriteLine($"1 + 2 = {calculator.Add(1, 2)}");
