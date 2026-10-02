@@ -12,7 +12,7 @@ namespace MyNamespace.Tests
             int actual = 1 + 1;
 
             // Act & Assert
-            Assert.AreEqual(expected, actual);
+            Assert.That(actual, Is.EqualTo(expected));
         }
     }
 }
